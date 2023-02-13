@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(27, 25, 25);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+}
+
+form{
+    background-color: rgb(231, 250, 250);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.component-wrapper{
+    background-color:rgb(180, 201, 194) ;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   
+   
+
+}

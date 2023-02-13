@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--SIEMPRE COLOCAR NUESTRO CSS DESPUES DEL CSS DE BOOTSTRAP-->
+    <link rel="stylesheet" href="./CSS/estilos.css">
+</head>
+
+<body class="container-fluid">
+    <!--HACER EL NAVBAR(BARRA DE NAVEGACION)-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/productos.html">Libros</a></li>
+                            <li><a class="dropdown-item" href="./pages/productos.html">Agendas</a></li>
+                            <li><a class="dropdown-item" href="./pages/productos.html">Acrilico EQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/local.html">Local</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center">La Libreria de Junin</h1>
+
+    <h2 class="text-center mt-4 border-bottom border-warning">Aca encontraras los mejores precios </h2>
+    <div class="text-center">
+        <img src="foto-fondo.jpg" class="img-fluid rounded-2" alt="fondo">
+        <div>
+            <a href="./pages/productos.html" class="btn btn-primary">Productos</a>
+        </div>
+
+    </div>
+
+    <h2 class="text-center">Formas de Pago</h2>
+
+    <div class="component-wrapper recomendation-1">
+        <section class="payment-data MLA" type="payment-data MLA">
+            <div class="container">
+                <div class="payment-data-container">
+                    <div class="payment-data-group payment-data-group-normal">
+                        <div class="payment-data-section payment-data-section-normal"><a class="payment-data-icon"
+                                href="#" data-title="Promociones bancarias"><img alt=""
+                                    src="https://http2.mlstatic.com/storage/mshops-appearance-api/resources/icons/payment-methods/credit-card-v1.svg"></a>
+                            <div class="payment-data-title">Pagá en cuotas</div>
+                            <div class="payment-data-subtitle"><a href="#" target="_blank"
+                                    rel="noopener noreferrer nofollow" id="view-promos"
+                                    modal_title="Promociones bancarias" data-title="Promociones bancarias">Ver
+                                    promociones bancarias</a></div>
+                        </div>
+                        <div class="payment-data-section payment-data-section-normal"><a class="payment-data-icon"
+                                href="#" data-title="Medios de pago"><img alt=""
+                                    src="https://http2.mlstatic.com/storage/mshops-appearance-api/resources/icons/payment-methods/debit-card-v1.svg"></a>
+                            <div class="payment-data-title">Tarjeta de débito</div>
+                            <div class="payment-data-subtitle"><a href="#"
+                                    target="_blank" rel="noopener noreferrer nofollow" id="view-more"
+                                    modal_title="Medios de pago" data-title="Medios de pago">Ver más</a></div>
+                        </div>
+                        <div class="payment-data-section payment-data-section-normal"><a class="payment-data-icon"
+                                href="p/ayuda/home/payments/methods#payment-agreement" data-title="Medios de pago"><img
+                                    alt=""
+                                    src="https://http2.mlstatic.com/storage/mshops-appearance-api/resources/icons/payment-methods/payment-agreement-v1.svg"></a>
+                            <div class="payment-data-title">Efectivo</div>
+                            <div class="payment-data-subtitle"><a href="p/ayuda/home/payments/methods#payment-agreement"
+                                    target="_blank" rel="noopener noreferrer nofollow" id="view-more"
+                                    modal_title="Medios de pago" data-title="Medios de pago">Ver más</a></div>
+                        </div>
+                    </div>
+                    <div class="payment-data-group payment-data-group-trailing">
+                        <div class="payment-data-section payment-data-section-trailing"><a class="payment-data-icon"
+                                href="p/ayuda/home/payments/methods" data-title="Medios de pago"><img alt=""
+                                    src="https://http2.mlstatic.com/storage/mshops-appearance-api/resources/icons/payment-methods/view-more-v1.svg"></a>
+                            <div class="payment-data-title">Más medios de pago</div>
+                            <div class="payment-data-subtitle"><a href="#" target="_blank"
+                                    rel="noopener noreferrer nofollow" id="view-more" modal_title="Medios de pago"
+                                    data-title="Medios de pago">Ver todos</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!--text-center =centrar el texto-->
+    <!--lead = formato a los parrafos-->
+
+    <!-- BOX MODELLING: border, padding y margin -->
+    <!--margin-top = mt(1 hasta el 5)-->
+    <!--padding: p-1(1 hasta el 5)-->
+    <!--border:border-bottom (y la opcion que yo quiera)-->
+
+
+
+
+
+
+
+
+
+
+    <!--2 PASO, PEGAMOS EL SCRIPT EN LA ULTIMA LINEA DEL BODY-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
